@@ -128,10 +128,10 @@ void printCodes(struct MinHeapNode* root, string str)
         cout <<"\t    "<< ch << "\t\t\t  " << str << "\n";
 	if(root->data == ' ')
 	{
-		codes = codes + "_" + " " + str + "�";
+		codes = codes + "_" + " " + str + "�";
 	}
 	else
-		codes = codes + ch + " " + str + "�";
+		codes = codes + ch + " " + str + "�";
 	for(int i = 0;i < count3;i++)
 	{
 
@@ -270,7 +270,7 @@ void write_codes()     //creates codes file
 	out.open("codes.txt");
 	for(int i=0; i < codes.size();i++)
 	{
-		if(codes[i] != '�')
+		if(codes[i] != '�')
 		{
 			out<<codes[i];
 			
@@ -342,6 +342,10 @@ void printFrequencyTable(int actual_frequency[],int ASCII_values[])
 	}
 }
 
+
+// Начало главного кода
+
+
 // Driver program to test above functions
 int main()
 {
@@ -402,3 +406,6 @@ int main()
     	return 0;
 
 }
+
+
+// Клнец главного кода

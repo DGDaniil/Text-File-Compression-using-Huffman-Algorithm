@@ -182,6 +182,9 @@ void Huffman::printTree(ostream & out, Huffman::nodePointer root,int indent)  //
 string str;
 
 
+// Начало главного кода
+
+
 int main()
 {
 	int total_bits_written;
@@ -238,3 +241,6 @@ int main()
 	cin>>l;
 	return(0);
 }
+
+
+// Конец главного кода
